@@ -13,9 +13,9 @@ def main():
 
 if __name__ == "__main__":
     main() # calling above main function
-    
+
     # Learning 'input' tool and making a basic calculator
-    
+
     num1 = input("Enter a number")
     num2 = input("Enter another number")
     result = float(num1) + float(num2)
