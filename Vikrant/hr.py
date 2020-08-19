@@ -8,3 +8,8 @@ class PayrollSystem:
             print(f'Payroll for: {employee.id} - {employee.name}')
             print(f'- Check Amount:$ {employee.calculate_payroll()}')
             print('')
+
+
+# class SalaryPolicy:
+#     def __init__(self, weekly_salary):
+#
