@@ -1,8 +1,25 @@
+from hr import (
+    SalaryPolicy,
+    CommissionPolicy,
+    HourlyPolicy
 
+)
+
+from productivity import (
+    ManagerRole,
+    SecretaryRole,
+    SalesRole,
+    FactoryRole
+
+)
+# Address doesnt need to know about the employee class and this is called a
+# loosely coupled relationship.
 class Employee:
     def __init__(self, id, name):
         self.id = id
         self.name = name
+        self.address = None
+
 
 
 class SalaryEmployee(Employee):
