@@ -32,3 +32,23 @@ elif not(is_male) and is_tall:
     print("You aren't a male but is tall")
 else:
     print("You are neither male nor tall")
+
+    
+ #   THE GUESSING GAME
+secert_word = "giraffe"
+guess = ""
+guess_count = 0
+guess_limit = 3
+outofguesses = False
+
+while guess != secert_word and not (outofguesses):
+  if guess_count< guess_limit:
+      guess = input("Enter your guess:")
+      guess_count += 1
+  else:
+   outofguesses = True
+
+if outofguesses:
+    print("You are out of guesses ,You Lose!")
+else:
+   print("you win!")
