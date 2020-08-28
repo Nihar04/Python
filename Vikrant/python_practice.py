@@ -377,5 +377,102 @@
 
 
 
-s ='UDDDUDUU'
-print(list(s))
+# s ='UDDDUDUU'
+# print(list(s))
+
+
+
+# Binary Search
+
+
+
+# a = [1,2,3,4,5,67,99,104,111,146,197]
+# val = 99
+#
+# def binarySearch(arr, val):
+#     low = 0
+#     high = len(a)-1
+#
+#     while low<=high:
+#         mid = (low+high)//2
+#         if val == arr[mid]:
+#             return True
+#         if val < arr[mid]:
+#             high = mid
+#         else:
+#             low = mid
+#     return False
+#
+# print(binarySearch(a,val))
+
+
+
+# class Array:
+#     def __init__(self, leng, capacity):
+#         self.leng = leng
+#         self.capacity = capacity
+
+
+# queries = [[1,0,5]]#,[1,1,7],[1,0,3],[2,1,0],[2,1,1]]
+# for q in queries:
+#     print(queries[(q[1]^0)%1])
+
+arr = [0,0,0,0,0]
+p,q,k,i,j = arr
+print(p)
+
+# import numpy as np
+# empty_list = [[0,0,0,0,0],
+#        [100,100,0,0,0],
+#        [100,200,100,100,100],
+#        [100,200,200,200,100]]
+# print(np.max(empty_list))
+
+# for i in range(1,3):
+#     empty_list[0][i-1] = empty_list[0][i-1] + 100
+#     # print(empty_list)
+# arr.append(*empty_list)
+#
+# print(arr)
+
+
+
+# from collections import defaultdict
+# from itertools import accumulate
+# a = defaultdict(int)
+# print(a)
+#
+# a[1] += 100
+# a[3] -= 100
+# print(a)
+# a[2] += 100
+# a[6] -= 100
+# print(a)
+# a[3] += 100
+# a[5] -= 100
+# print(a)
+#
+# print(max(accumulate(a[i] for i in sorted(a))))
+
+
+
+
+Best ever array manipulation
+
+
+# def arrayManipulation(n, queries):
+#     a = defaultdict(int)
+#     for ele in queries:
+#         p,q,k = ele
+#         a[p] += k
+#         a[q+1] -= k # normalize for accumulate operation
+#     return max(accumulate(a[i] for i in sorted(a)))
+
+
+
+
+
+
+
+# A tree whose nodes have atmost 2 elements is called a binary tree.
+# left and right child
