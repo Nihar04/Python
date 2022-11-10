@@ -1,2 +1,2 @@
 # Python
-Just a beginner at Python!
+PYTHON Programming
